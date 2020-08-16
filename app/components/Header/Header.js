@@ -1,7 +1,7 @@
 import React from "react";
 import { View, TouchableOpacity, Image } from "react-native";
 
-import styles from "./TopbarStyles";
+import styles from "./HeaderStyles";
 import SearchIcon from "../../assets/svg/Search.svg";
 
 export default () => {

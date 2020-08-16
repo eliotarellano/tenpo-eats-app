@@ -1,17 +1,16 @@
 import { StyleSheet, Dimensions } from "react-native";
+import colors from "../../styles/colors";
 
 export default StyleSheet.create({
   container: {
-    padding: 16,
+    flex: 1,
     flexDirection: "row",
     alignItems: "center",
+    bottom: 16,
   },
-  user: {
-    width: 50,
-    height: 50,
-  },
-  search: {
-    marginLeft: "auto",
-    marginRight: 4,
+  text: {
+    color: colors.primaryDarker,
+    marginLeft: 8,
+    fontWeight: "300",
   },
 });

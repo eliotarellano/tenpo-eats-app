@@ -1,15 +1,16 @@
 import { StyleSheet, Dimensions } from "react-native";
-import colors from "../../styles/colors";
+
+const height = Dimensions.get("window").height;
 
 export default StyleSheet.create({
   container: {
-    flex: 1,
+    padding: 20,
     flexDirection: "row",
     alignItems: "center",
-    bottom: 16,
+    bottom: 30,
   },
-  text: {
-    color: colors.primaryDarker,
-    marginLeft: 8,
+  firstIllustration: {
+    top: height * 0.03,
+    right: 10,
   },
 });

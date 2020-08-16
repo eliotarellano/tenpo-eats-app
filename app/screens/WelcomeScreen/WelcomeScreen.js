@@ -15,14 +15,14 @@ export default () => {
     <View style={styles.container}>
       <SafeAreaView>
         <View>
-          {/* <TitleContainer>
+          <TitleContainer>
             <Title type="light">Tenpo</Title>
             <Title type="primary">Eats</Title>
             <Subtitle>Deliver App</Subtitle>
           </TitleContainer>
           <SvgContainer>
             <SecondIllustration width={300} height={300} />
-          </SvgContainer> */}
+          </SvgContainer>
         </View>
       </SafeAreaView>
     </View>
