@@ -1,9 +1,9 @@
-export default spacings = {
-  xs: "0.5rem",
-  sm: "1rem",
-  md: "1.5rem",
-  lg: "2rem",
-  xl: "2.5rem",
-  xxl: "3rem",
-  xxxl: "5rem",
+export const spacings = {
+  xs: 2,
+  sm: 4,
+  md: 6,
+  lg: 8,
+  xl: 10,
+  xxl: 12,
+  xxxl: 14,
 };
