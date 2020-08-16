@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "tenpo-eats-app",
+    "name": "Tenpo Eats",
     "slug": "tenpo-eats-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./app/assets/icon.png",
     "splash": {
       "image": "./app/assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#F2F2F2"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -19,6 +19,22 @@
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "./metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
     }
   }
 }

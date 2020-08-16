@@ -1,4 +1,4 @@
-export const spacings = {
+export default spacings = {
   xs: "0.5rem",
   sm: "1rem",
   md: "1.5rem",
