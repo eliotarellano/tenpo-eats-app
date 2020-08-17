@@ -2,16 +2,16 @@ export default [
   {
     id: 1,
     name: "Hamburguesas",
-    image: "../assets/categories/hamburgers.png",
+    image: require("../assets/categories/hamburgers.png"),
   },
   {
     id: 2,
     name: "Italiana",
-    image: "../assets/categories/italian.png",
+    image: require("../assets/categories/italian.png"),
   },
   {
     id: 3,
     name: "Pizzas",
-    image: "../assets/categories/pizzas.png",
+    image: require("../assets/categories/pizzas.png"),
   },
 ];
