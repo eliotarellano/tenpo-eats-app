@@ -4,7 +4,10 @@ import { View, SafeAreaView, ScrollView } from "react-native";
 import styles from "./HomeScreenStyles";
 import Header from "../../components/Header/Header";
 import Slider from "../../components/Slider/Slider";
-import AdressButton from "../../components/AdressButton/AdressButton";
+import AdressButton from "../../components/AdressButton/";
+import Restaurants from "../../components/Restaurants/";
+import Categories from "../../components/Categories";
+import Favorites from "../../components/Favorites";
 
 export default () => {
   return (
@@ -18,7 +21,11 @@ export default () => {
           <AdressButton />
         </View>
         <View style={styles.bottomContainer}>
-          <ScrollView></ScrollView>
+          <ScrollView style={styles.sectionContainer}>
+            <Restaurants />
+            <Categories />
+            <Favorites />
+          </ScrollView>
         </View>
       </SafeAreaView>
     </View>

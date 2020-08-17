@@ -35,4 +35,8 @@ export default StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 2,
   },
+  sectionContainer: {
+    padding: 20,
+    marginTop: 10,
+  },
 });

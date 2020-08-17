@@ -14,7 +14,7 @@ export default () => {
         <Title type="primary">Eats</Title>
         <Subtitle>Deliver App</Subtitle>
       </View>
-      <View style={styles.svgContainer}>
+      <SvgContainer>
         <View>
           <FirstIllustration style={styles.firstIllustration} />
         </View>
@@ -23,7 +23,7 @@ export default () => {
             <SliderPicker style={styles.sliderPicker} />
           </View>
         </TouchableOpacity>
-      </View>
+      </SvgContainer>
     </View>
   );
 };

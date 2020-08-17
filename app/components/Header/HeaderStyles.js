@@ -1,9 +1,11 @@
 import { StyleSheet, Platform } from "react-native";
 
+import normalize from "../../helpers/normalize";
+
 export default StyleSheet.create({
   container: {
-    padding: 16,
-    marginTop: Platform.OS === "android" ? 20 : 0,
+    padding: normalize(false, 16),
+    marginTop: Platform.OS === "android" ? normalize(false, 20) : 0,
     flexDirection: "row",
     alignItems: "center",
   },

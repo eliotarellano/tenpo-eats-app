@@ -1,4 +1,6 @@
-import { StyleSheet, Dimensions } from "react-native";
+import { StyleSheet } from "react-native";
+
+import normalize from "../../helpers/normalize";
 import colors from "../../styles/colors";
 
 export default StyleSheet.create({
@@ -10,7 +12,9 @@ export default StyleSheet.create({
   },
   text: {
     color: colors.primaryDarker,
-    marginLeft: 8,
-    fontWeight: "300",
+    marginLeft: normalize(false, 10),
+    fontFamily: "gotham-regular",
+    fontWeight: "800",
+    fontSize: normalize(false, 15),
   },
 });

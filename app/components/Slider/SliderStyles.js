@@ -10,18 +10,14 @@ export default StyleSheet.create({
     bottom: Platform.OS === "android" ? 28 : height > 812 ? 14 : 28,
   },
   logoContainer: {
-    bottom: height > 812 ? 20 : 26,
-  },
-  svgContainer: {
-    marginLeft: "auto",
-    transform: [{ scale: 1 }],
+    bottom: height > 812 ? 10 : 26,
   },
   firstIllustration: {
-    top: height > 812 ? 20 : 4,
+    top: height > 812 ? 14 : 4,
     right: 30,
   },
   sliderPicker: {
-    bottom: Platform.OS === "android" ? 8 : height > 812 ? height * 0.001 : 40,
+    bottom: Platform.OS === "android" ? 4 : height > 667 ? 10 : 40,
     left: 90,
   },
 });
