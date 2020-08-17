@@ -20,7 +20,7 @@ export default () => {
         </View>
         <TouchableOpacity>
           <View>
-            <SliderPicker />
+            <SliderPicker style={styles.sliderPicker} />
           </View>
         </TouchableOpacity>
       </SvgContainer>

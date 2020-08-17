@@ -14,7 +14,7 @@ export default () => {
   return (
     <View style={styles.container}>
       <SafeAreaView>
-        <View>
+        {/* <View>
           <TitleContainer>
             <Title type="light">Tenpo</Title>
             <Title type="primary">Eats</Title>
@@ -23,7 +23,7 @@ export default () => {
           <SvgContainer>
             <SecondIllustration width={300} height={300} />
           </SvgContainer>
-        </View>
+        </View> */}
       </SafeAreaView>
     </View>
   );

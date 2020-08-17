@@ -2,6 +2,7 @@ import { StyleSheet, Dimensions } from "react-native";
 import colors from "../../styles/colors";
 
 const width = Dimensions.get("window").width;
+const height = Dimensions.get("window").height;
 const borderRadius = 25;
 
 export default StyleSheet.create({
@@ -14,13 +15,14 @@ export default StyleSheet.create({
     flex: 2,
   },
   middleContainer: {
+    padding: height > 812 ? 0 : 4,
     flex: 1,
     flexDirection: "row",
     justifyContent: "center",
     backgroundColor: colors.secondary,
     borderTopLeftRadius: borderRadius,
     borderTopRightRadius: borderRadius,
-    top: 36,
+    top: 48,
   },
   bottomContainer: {
     width,

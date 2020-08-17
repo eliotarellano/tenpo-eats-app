@@ -6,7 +6,7 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
-    bottom: 16,
+    bottom: 22,
   },
   text: {
     color: colors.primaryDarker,
