@@ -9,12 +9,12 @@ import SliderPicker from "../../assets/svg/Slider.svg";
 export default () => {
   return (
     <View style={styles.container}>
-      <View>
+      <View style={styles.logoContainer}>
         <Title type="light">Tenpo</Title>
         <Title type="primary">Eats</Title>
         <Subtitle>Deliver App</Subtitle>
       </View>
-      <SvgContainer>
+      <View style={styles.svgContainer}>
         <View>
           <FirstIllustration style={styles.firstIllustration} />
         </View>
@@ -23,7 +23,7 @@ export default () => {
             <SliderPicker style={styles.sliderPicker} />
           </View>
         </TouchableOpacity>
-      </SvgContainer>
+      </View>
     </View>
   );
 };

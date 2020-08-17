@@ -1,8 +1,7 @@
 import { StyleSheet, Dimensions } from "react-native";
 import colors from "../../styles/colors";
 
-const width = Dimensions.get("window").width;
-const height = Dimensions.get("window").height;
+const { width, height } = Dimensions.get("window");
 const borderRadius = 25;
 
 export default StyleSheet.create({
