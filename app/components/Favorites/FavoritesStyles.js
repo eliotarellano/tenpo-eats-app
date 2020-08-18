@@ -5,8 +5,6 @@ import normalize from "../../helpers/normalize";
 export default StyleSheet.create({
   container: {
     marginTop: 20,
-    flexDirection: "row",
-    alignItems: "center",
   },
   title: {
     fontSize: normalize(false, 16),

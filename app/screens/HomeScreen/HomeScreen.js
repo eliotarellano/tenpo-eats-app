@@ -12,7 +12,7 @@ import Favorites from "../../components/Favorites";
 export default () => {
   return (
     <View style={styles.container}>
-      <SafeAreaView>
+      <ScrollView>
         <View style={styles.topContainer}>
           <Header />
           <Slider />
@@ -21,13 +21,13 @@ export default () => {
           <AdressButton />
         </View>
         <View style={styles.bottomContainer}>
-          <ScrollView style={styles.sectionContainer}>
+          <View style={styles.sectionContainer}>
             <Restaurants />
             <Categories />
             <Favorites />
-          </ScrollView>
+          </View>
         </View>
-      </SafeAreaView>
+      </ScrollView>
     </View>
   );
 };

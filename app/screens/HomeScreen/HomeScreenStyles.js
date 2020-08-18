@@ -7,25 +7,27 @@ const borderRadius = 25;
 export default StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: height > 667 ? 44 : 22,
     backgroundColor: colors.gray,
     alignItems: "center",
   },
   topContainer: {
-    flex: 2,
+    flex: 3,
   },
   middleContainer: {
-    padding: height > 812 ? 0 : 4,
     flex: 1,
+    padding: height > 812 ? 0 : 4,
     flexDirection: "row",
     justifyContent: "center",
     backgroundColor: colors.secondary,
     borderTopLeftRadius: borderRadius,
     borderTopRightRadius: borderRadius,
-    top: 48,
+    bottom: 38,
   },
   bottomContainer: {
-    width,
     flex: 4,
+    bottom: 60,
+    width,
     alignSelf: "stretch",
     backgroundColor: colors.white,
     borderTopLeftRadius: borderRadius,
@@ -36,7 +38,9 @@ export default StyleSheet.create({
     shadowRadius: 2,
   },
   sectionContainer: {
-    padding: 20,
-    marginTop: 10,
+    paddingTop: 20,
+    paddingLeft: 20,
+    paddingBottom: 20,
+    marginTop: 20,
   },
 });

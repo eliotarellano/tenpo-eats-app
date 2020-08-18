@@ -8,7 +8,8 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
-    bottom: 22,
+    padding: 30,
+    bottom: 10,
   },
   text: {
     color: colors.primaryDarker,

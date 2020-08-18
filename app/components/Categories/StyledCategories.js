@@ -7,10 +7,10 @@ export const CategoryList = styled.View`
   flex-direction: row;
   margin-top: 10px;
   margin-bottom: 6px;
+  margin-left: -4px;
 `;
 
 export const Category = styled.View`
-  margin-right: ${normalize(true, 6)};
   margin-top: 6px;
 `;
 

@@ -7,7 +7,7 @@ export default StyleSheet.create({
     padding: 20,
     flexDirection: "row",
     alignItems: "center",
-    bottom: Platform.OS === "android" ? 28 : height > 812 ? 14 : 28,
+    bottom: Platform.OS === "android" ? 28 : height > 812 ? 14 : 10,
   },
   logoContainer: {
     bottom: height > 812 ? 10 : 26,
@@ -17,7 +17,7 @@ export default StyleSheet.create({
     right: 30,
   },
   sliderPicker: {
-    bottom: Platform.OS === "android" ? 4 : height > 667 ? 10 : 40,
+    bottom: Platform.OS === "android" ? 4 : height > 667 ? 10 : 10,
     left: 90,
   },
 });
