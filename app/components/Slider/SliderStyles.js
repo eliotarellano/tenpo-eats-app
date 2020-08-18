@@ -7,7 +7,7 @@ export default StyleSheet.create({
     padding: 20,
     flexDirection: "row",
     alignItems: "center",
-    bottom: Platform.OS === "android" ? 28 : height > 812 ? 14 : 10,
+    bottom: Platform.OS === "android" ? 20 : height > 812 ? 14 : 10,
   },
   logoContainer: {
     bottom: height > 812 ? 10 : 26,

@@ -11,7 +11,6 @@ import styles from "./FavoritesStyles";
 import {
   FavoritesList,
   Product,
-  ProducImage,
   RestaurantImage,
   ProducInfo,
   ProductName,

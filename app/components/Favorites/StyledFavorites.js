@@ -1,7 +1,10 @@
+import { Platform, Dimensions } from "react-native";
 import styled from "styled-components/native";
 
 import normalize from "../../helpers/normalize";
 import colors from "../../styles/colors";
+
+const { height } = Dimensions.get("window");
 
 export const FavoritesList = styled.View`
   flex-direction: row;
@@ -31,6 +34,11 @@ export const ProductName = styled.Text`
 
 export const ProductRatingSvg = styled.View`
   margin-left: auto;
+  left: ${Platform.OS === "android"
+    ? normalize(true, 20)
+    : height > 812
+    ? normalize(true, 8)
+    : normalize(true, 18)};
 `;
 
 export const ProductRating = styled.Text`

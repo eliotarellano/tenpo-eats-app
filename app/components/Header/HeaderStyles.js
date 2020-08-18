@@ -5,7 +5,6 @@ import normalize from "../../helpers/normalize";
 export default StyleSheet.create({
   container: {
     padding: normalize(false, 16),
-    marginTop: Platform.OS === "android" ? normalize(false, 20) : 0,
     flexDirection: "row",
     alignItems: "center",
   },
