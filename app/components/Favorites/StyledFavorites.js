@@ -1,10 +1,10 @@
-import {Platform, Dimensions} from 'react-native';
+import { Platform, Dimensions } from 'react-native';
 import styled from 'styled-components/native';
 
 import normalize from '../../helpers/normalize';
 import colors from '../../styles/colors';
 
-const {height} = Dimensions.get('window');
+const { height } = Dimensions.get('window');
 
 export const FavoritesList = styled.View`
   flex-direction: row;

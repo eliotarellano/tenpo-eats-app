@@ -1,6 +1,6 @@
-import {StyleSheet, Dimensions, Platform} from 'react-native';
+import { StyleSheet, Dimensions, Platform } from 'react-native';
 
-const {height} = Dimensions.get('window');
+const { height } = Dimensions.get('window');
 
 export default StyleSheet.create({
   container: {

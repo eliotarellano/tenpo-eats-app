@@ -1,7 +1,7 @@
-import {StyleSheet, Dimensions} from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 import colors from '../../styles/colors';
 
-const {width, height} = Dimensions.get('window');
+const { width, height } = Dimensions.get('window');
 const borderRadius = 25;
 
 export default StyleSheet.create({
@@ -33,7 +33,7 @@ export default StyleSheet.create({
     borderTopLeftRadius: borderRadius,
     borderTopRightRadius: borderRadius,
     shadowColor: '#000',
-    shadowOffset: {height: 1},
+    shadowOffset: { height: 1 },
     shadowOpacity: 0.2,
     shadowRadius: 2
   },
