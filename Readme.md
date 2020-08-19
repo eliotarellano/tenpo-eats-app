@@ -1,5 +1,3 @@
-## Goodfellas
-
 <br />
 <p align="center">
   <a href="https://github.com/eliotarellano/tenpo-eats-app">
