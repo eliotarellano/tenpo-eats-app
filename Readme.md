@@ -17,7 +17,7 @@ Install the necessary packages to run the app
 
 ## Running the App
 
-Run the app with the following command and then scan de QR code.
+Run the app with the following command and scan the QR code with the Expo App.
 
 ```bash
 $ expo start
