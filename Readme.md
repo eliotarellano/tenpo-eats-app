@@ -5,7 +5,7 @@
   </a>
 </p>
 
-## Installation and Usage
+## Installation
 
 Install the necessary packages to run the app
 
