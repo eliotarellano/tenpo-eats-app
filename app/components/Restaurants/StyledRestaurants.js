@@ -1,7 +1,7 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native';
 
-import normalize from "../../helpers/normalize";
-import colors from "../../styles/colors";
+import normalize from '../../helpers/normalize';
+import colors from '../../styles/colors';
 
 export const RestaurantList = styled.View`
   flex-direction: row;

@@ -1,14 +1,14 @@
-import { StyleSheet } from "react-native";
+import {StyleSheet} from 'react-native';
 
-import normalize from "../../helpers/normalize";
+import normalize from '../../helpers/normalize';
 
 export default StyleSheet.create({
   container: {
-    marginTop: 20,
+    marginTop: 20
   },
   title: {
     fontSize: normalize(false, 16),
-    fontFamily: "gotham-bold",
-    textTransform: "uppercase",
-  },
+    fontFamily: 'gotham-bold',
+    textTransform: 'uppercase'
+  }
 });

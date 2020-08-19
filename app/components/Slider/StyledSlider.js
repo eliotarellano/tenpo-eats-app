@@ -1,14 +1,13 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native';
 
-import normalize from "../../helpers/normalize";
-import colors from "../../styles/colors";
+import normalize from '../../helpers/normalize';
+import colors from '../../styles/colors';
 
 export const Title = styled.Text`
   font-size: ${normalize(true, 40)};
   font-weight: 800;
   line-height: ${normalize(true, 38)};
-  color: ${(props) =>
-    props.type === "light" ? colors.darkerGray : colors.primary};
+  color: ${props => (props.type === 'light' ? colors.darkerGray : colors.primary)};
 `;
 
 export const Subtitle = styled.Text`

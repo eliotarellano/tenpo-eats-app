@@ -1,21 +1,16 @@
-import React from "react";
-import { View, TouchableOpacity, Image } from "react-native";
+import React from 'react';
+import {View, TouchableOpacity, Image} from 'react-native';
 
-import styles from "./HeaderStyles";
-import SearchIcon from "../../assets/svg/Search.svg";
+import styles from './HeaderStyles';
+import SearchIcon from '../../assets/svg/Search.svg';
 
-export default () => {
-  return (
-    <View style={styles.container}>
-      <TouchableOpacity>
-        <Image
-          style={styles.user}
-          source={require("../../assets/Elipse.png")}
-        />
-      </TouchableOpacity>
-      <TouchableOpacity style={styles.search}>
-        <SearchIcon />
-      </TouchableOpacity>
-    </View>
-  );
-};
+export default () => (
+  <View style={styles.container}>
+    <TouchableOpacity>
+      <Image style={styles.user} source={require('../../assets/Elipse.png')} />
+    </TouchableOpacity>
+    <TouchableOpacity style={styles.search}>
+      <SearchIcon />
+    </TouchableOpacity>
+  </View>
+);

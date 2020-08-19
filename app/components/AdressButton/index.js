@@ -1,3 +1,3 @@
-import AdressButton from "./AdressButton";
+import AdressButton from './AdressButton';
 
 export default AdressButton;
