@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import normalize from '../../helpers/normalize';
 import colors from '../../styles/colors';

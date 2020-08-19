@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, ScrollView, Image, TouchableOpacity} from 'react-native';
+import { View, Text, ScrollView, Image, TouchableOpacity } from 'react-native';
 
 import styles from './RestaurantsStyles';
 import {
@@ -19,10 +19,10 @@ export default () => (
     <Text style={styles.title}>Restaurantes</Text>
     <ScrollView horizontal={true}>
       <RestaurantList>
-        {restaurants.map(({id, name, rating, time, discount, image}) => (
+        {restaurants.map(({ id, name, rating, time, discount, image }) => (
           <TouchableOpacity key={id}>
             <Restaurant>
-              <Image style={{width: 110, height: 110}} source={image} />
+              <Image style={{ width: 110, height: 110 }} source={image} />
               <RestaurantDiscount>
                 <Discount>
                   <DiscountText>{`${discount}%${'\n'}DCTO`}</DiscountText>

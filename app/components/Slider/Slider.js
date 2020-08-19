@@ -1,8 +1,8 @@
 import React from 'react';
-import {View, TouchableOpacity} from 'react-native';
+import { View, TouchableOpacity } from 'react-native';
 
 import styles from './SliderStyles';
-import {Title, Subtitle, SvgContainer} from './StyledSlider';
+import { Title, Subtitle, SvgContainer } from './StyledSlider';
 import FirstIllustration from '../../assets/svg/Illustration_1.svg';
 import SliderPicker from '../../assets/svg/Slider.svg';
 

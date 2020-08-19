@@ -9,7 +9,8 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/prop-types': 'off',
     'comma-dangle': 'off',
-    'no-nested-ternary': 'off'
+    'no-nested-ternary': 'off',
+    'global-require': 0
   },
   globals: {
     fetch: false

@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, ScrollView, TouchableOpacity, ImageBackground} from 'react-native';
+import { View, Text, ScrollView, TouchableOpacity, ImageBackground } from 'react-native';
 
 import styles from './FavoritesStyles';
 import {
@@ -20,14 +20,14 @@ export default () => (
     <Text style={styles.title}>Tus favoritos</Text>
     <ScrollView horizontal={true}>
       <FavoritesList>
-        {favorites.map(({id, name, rating, image, time, restaurantName, restaurantImage}) => (
+        {favorites.map(({ id, name, rating, image, time, restaurantName, restaurantImage }) => (
           <TouchableOpacity key={id}>
             <Product>
-              <ImageBackground source={image} style={{width: 260, height: 101}}>
-                <RestaurantImage style={{width: 35, height: 35}} source={restaurantImage} />
+              <ImageBackground source={image} style={{ width: 260, height: 101 }}>
+                <RestaurantImage style={{ width: 35, height: 35 }} source={restaurantImage} />
               </ImageBackground>
               <ProducInfo>
-                <View style={{flexDirection: 'row'}}>
+                <View style={{ flexDirection: 'row' }}>
                   <ProductName>{name}</ProductName>
                   <ProductRatingSvg>
                     <Rating />

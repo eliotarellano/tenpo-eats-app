@@ -1,6 +1,6 @@
-import {Dimensions, Platform, PixelRatio} from 'react-native';
+import { Dimensions, Platform, PixelRatio } from 'react-native';
 
-const {width} = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 const scale = width / 375;
 
 export default (isStyledComponent, size) => {
