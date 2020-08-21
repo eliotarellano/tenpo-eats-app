@@ -4,7 +4,7 @@ import { View, ScrollView } from 'react-native';
 import styles from './HomeScreenStyles';
 import Header from '../../components/Header/Header';
 import Slider from '../../components/Slider/Slider';
-import AdressButton from '../../components/AdressButton';
+import AddressButton from '../../components/AddressButton';
 import Restaurants from '../../components/Restaurants';
 import Categories from '../../components/Categories';
 import Favorites from '../../components/Favorites';
@@ -17,7 +17,7 @@ export default () => (
         <Slider />
       </View>
       <View style={styles.middleContainer}>
-        <AdressButton />
+        <AddressButton />
       </View>
       <View style={styles.bottomContainer}>
         <View style={styles.sectionContainer}>
