@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, TouchableOpacity, Text } from 'react-native';
 
-import styles from './AdressButtonStyles';
+import styles from './AddressButtonStyles';
 import Location from '../../assets/svg/Location.svg';
 
 export default () => (
